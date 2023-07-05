@@ -1,0 +1,95 @@
+.Header {
+  display : flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: #252525;
+
+}
+body {
+  background-color: #252525; /* Color del fondo */
+}
+.Logo{
+  width: 80px;
+  height: 80px;
+}
+
+.Terms
+{
+  color: white;
+  font-size: 14px;
+
+}
+.Hero {
+  position: relative;
+  background-image: url("/public/wallpaper.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Hero h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 55px; 
+  margin-bottom: 10px; 
+}
+
+.Hero h2 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px; 
+  margin-bottom: 10px; 
+}
+main h1 {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /*Centra los elementos */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Alinea las tarjetas en la parte izquierda */
+  align-items: flex-start; /* Alinea las tarjetas en la parte superior */
+}
+
+.card {
+  background-color: rgba(153, 153, 153, 0.4);
+  display: flex;
+  border-radius: 5px;
+  width: 220px;
+  height: 500px;
+  flex-direction: column;
+  margin: 10px;
+  flex: 0 0 calc(20% - 20px); 
+}
+
+
+.card h1{
+  color:white;
+  background-color: #252525;
+  font-size: 14px;
+  text-align: center;
+}
+.card-description{
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  padding: 10px 5px;
+}
